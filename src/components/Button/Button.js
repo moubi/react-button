@@ -11,11 +11,8 @@ export default function Button({
   size,
   onClick,
 }) {
-  const [isSuccess, setIsSuccess] = useState(false);
   const handleClick = () => {
     if (!disabled) {
-      setIsSuccess(true);
-
       if (typeof onClick === "function") {
         onClick();
       }
@@ -27,7 +24,6 @@ export default function Button({
       className={classNames("Button", {
         [color]: color,
         [size]: size,
-        success: isSuccess,
       })}
       disabled={disabled}
       onClick={handleClick}
@@ -38,7 +34,7 @@ export default function Button({
 }
 
 Button.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.node.isRequired,
   disabled: PropTypes.bool,
   onClick: PropTypes.func,
   color: PropTypes.oneOf(["primary", "secondary"]),
