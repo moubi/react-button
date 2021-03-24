@@ -9,6 +9,6 @@ const expect = unexpected
   .use(unexpectedReaction)
   .use(unexpectedSinon);
 
-export { Ignore, simulate, act, mount } from "react-dom-testing";
+export { simulate, mount } from "react-dom-testing";
 
 export default expect;
