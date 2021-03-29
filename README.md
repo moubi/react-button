@@ -1,4 +1,4 @@
-# A Material UI-like button
+# A Material UI-like Button and Its Tests
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,11 +14,11 @@ npm install
 ```
 in the project's root folder.
 
-To run the app in the development mode:
+Run the app in dev mode by:
 ```
 yarn start
 ```
-Then open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Running the tests
 ```
@@ -27,4 +27,4 @@ yarn test
 Launches the test runner in interactive watch mode.
 
 ## Credits
-Find more React and Front-end related guides at [webup.org/blog](https://webup.org/blog)
+You can find more React and Front-end related guides at [webup.org/blog](https://webup.org/blog)
